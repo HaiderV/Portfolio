@@ -1,4 +1,3 @@
-import React from 'react'
 import { motion, useReducedMotion } from 'framer-motion'
 import { MapPin } from 'lucide-react'
 
@@ -26,6 +25,7 @@ const EXPERIENCE = [
       'Developed web solutions to support social welfare and community outreach campaigns during an internship at Inamigos Foundation.',
     tags: ['Web Development'],
     link: null,
+    logo: 'https://media.licdn.com/dms/image/v2/D560BAQGu-roAls5lIg/company-logo_200_200/B56ZVWVQfaHEAM-/0/1740910168536/inamigos_foundation_logo?e=2147483647&v=beta&t=9Fusx2AzwVIevGobrSuSDSxNpT_1Kr6z9ZWUCF08fxs',
   },
 ]
 
@@ -170,12 +170,29 @@ const ExperienceSection = () => {
                     )}
                   </div>
 
-                  <h3 className="mt-4 text-lg font-medium tracking-tight text-white sm:text-xl">
-                    {item.role}
-                  </h3>
-                  <p className="mt-1.5 text-[11px] uppercase tracking-[0.2em] text-white/40">
-                    {item.org}
-                  </p>
+                  <div className="mt-4 flex items-center gap-4">
+                    <div className="glass-edge flex h-14 w-14 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-white/10 bg-white/[0.04] p-1.5 sm:h-16 sm:w-16">
+                      {item.logo ? (
+                        <img
+                          src={item.logo}
+                          alt={`${item.org} logo`}
+                          className="h-full w-full object-contain"
+                        />
+                      ) : (
+                        <span className="font-serif text-lg text-white/45">
+                          {item.org.slice(0, 1)}
+                        </span>
+                      )}
+                    </div>
+                    <div className="min-w-0">
+                      <h3 className="text-lg font-medium tracking-tight text-white sm:text-xl">
+                        {item.role}
+                      </h3>
+                      <p className="mt-1.5 text-[11px] uppercase tracking-[0.2em] text-white/40">
+                        {item.org}
+                      </p>
+                    </div>
+                  </div>
 
                   <p className="mt-3 max-w-2xl text-sm leading-relaxed text-white/55">
                     {item.description}

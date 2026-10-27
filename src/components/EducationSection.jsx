@@ -40,7 +40,7 @@ const EDUCATION = [
     logo: 'https://www.freepnglogos.com/uploads/ibm-logo-png/ibm-logo-png-transparent-svg-vector-bie-supply-3.png',
     link: 'https://www.coursera.org/account/accomplishments/verify/V635H420PTTF',
     title: 'Node.js & MongoDB: Developing Back-end Database Applications',
-    provider: '', // TODO: add the provider
+    provider: 'IBM', // TODO: add the provider
     status: 'Completed',
     desc: 'Completed the Node.js & MongoDB course on developing back-end database applications.',
   },

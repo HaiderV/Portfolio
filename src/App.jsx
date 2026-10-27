@@ -9,6 +9,7 @@ import ExperienceSection from './components/ExperienceSection';
 import ResumeSection from './components/ResumeSection';
 import ContactSection from './components/ContactSection';
 import FooterSection from './components/FooterSection';
+import EventSection from './components/EventSection';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <SkillsSection />
       <ProjectsSection />
       <ExperienceSection />
+      <EventSection />
       <ResumeSection />
       <ContactSection />
       <FooterSection />

@@ -168,7 +168,7 @@ const ContactSection = () => {
       <div className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
 
       <div className="pointer-events-none absolute left-0 top-2 select-none font-serif text-[34vw] leading-[0.8] text-white/[0.035] sm:left-2 sm:text-[12vw]">
-        07
+        08
       </div>
 
       <motion.div
@@ -180,7 +180,7 @@ const ContactSection = () => {
       >
         {/* ---------- header ---------- */}
         <div className="flex items-center gap-4">
-          <span className="font-mono text-[11px] tracking-[0.3em] text-[#3b74ff]">07</span>
+          <span className="font-mono text-[11px] tracking-[0.3em] text-[#3b74ff]">08</span>
           <motion.span
             variants={drawLine}
             className="h-px flex-1 origin-left bg-gradient-to-r from-white/20 to-transparent"

@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react'
+import { useMemo, useState } from 'react'
 import { motion, AnimatePresence, useReducedMotion } from 'framer-motion'
 import { ArrowUpRight } from 'lucide-react'
 
@@ -62,7 +62,19 @@ const PROJECTS = [
     title: 'Repair-Replace',
     description:
       'Repair Before Replace is an AI-powered platform that analyzes damaged items and determines whether they are better repaired or replaced. It provides repair difficulty, estimated costs, required tools, and replacement alternatives to help users make a practical and cost-effective decision.',
-    link: 'https://hackathon-repair-replace.vercel.app/',
+    link: 'https://github.com/HaiderV/Hackathon-Repair-Replace',
+  },
+  {
+    type: 'Full-Stack',
+    title: 'Fit-Cloths',
+    description: 'Fit Cloths is an end-to-end bespoke tailoring and e-commerce application that bridges computer vision anthropometry with an intelligent RAG styling agent. It allows users to capture tailoring-accurate body measurements from just two ordinary photos and receive personalized outfit recommendations tailored directly to their silhouette.',
+    link: 'https://github.com/HaiderV/Fit-Cloths',
+  },
+  {
+    type: 'Full-Stack',
+    title: 'Student-GatePass-Exit-Management-System',
+    description: 'A smarter way to manage who enters, who exits, and what happens at the gate.',
+    link: 'https://github.com/HaiderV/Student-Gate-Pass-Exit-Management-System',
   },
 ]
 
