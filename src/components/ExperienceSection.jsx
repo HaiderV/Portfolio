@@ -24,7 +24,7 @@ const EXPERIENCE = [
     description:
       'Developed web solutions to support social welfare and community outreach campaigns during an internship at Inamigos Foundation.',
     tags: ['Web Development'],
-    link: null,
+    link: 'https://drive.google.com/drive/folders/19vbfWk7uILP4RZqUroWTLf4UczLAXARe?usp=drive_link',
     logo: 'https://media.licdn.com/dms/image/v2/D560BAQGu-roAls5lIg/company-logo_200_200/B56ZVWVQfaHEAM-/0/1740910168536/inamigos_foundation_logo?e=2147483647&v=beta&t=9Fusx2AzwVIevGobrSuSDSxNpT_1Kr6z9ZWUCF08fxs',
   },
 ]
